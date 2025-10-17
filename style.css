@@ -39,6 +39,7 @@ span:hover{
 .google{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 5px;
 }
 
@@ -67,7 +68,7 @@ span:hover{
     justify-content: center;
 }
 input{
-    width: 550px;
+    width: 80%;
     height: 45px;
     border-radius: 25px;
     border: solid;
@@ -76,7 +77,7 @@ input{
     padding-left: 20px;
 }
 ::placeholder{
-    font-size: 25px;
+    font-size: 30px;
 }
 .recherche{
     display: flex;
@@ -102,6 +103,7 @@ input{
 p{
     text-align: center;
 }
+
 @media (max-width: 768px) {
     .liens{
     justify-content: center;
@@ -116,28 +118,38 @@ p{
 @media (max-width: 425px) {
     input{
     width: 498px;
+    margin: auto;
     }
+    /* .bare{
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    } */
     .bleu, .rouge, .jaune, .vert{
-        font-size: 100px;
+        font-size: 90px;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: auto;
     }
     input{
-    width: 390px;
+    width: 90%;
     display: flex;
     justify-content: center;
+    margin: auto;
     }
 }
 
 @media (max-width: 375px) {
     .liens{
     justify-content: center;
+    margin: auto;
     }    
     input{
     width: 350px;
     display: flex;
     justify-content: center;
+    margin: auto;
     }
     .recherche{
     display: flex;
@@ -145,11 +157,18 @@ p{
     gap: 10px;
     margin: auto;
     }
+    .bare{
+    justify-content: center;
+    width: 200px;
+    margin: auto;
+    background-color: #34A853;
+    }
     .bleu, .rouge, .jaune, .vert{
-        font-size: 100px;
+        font-size: 90px;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: auto;
     }
 }
 
@@ -158,13 +177,22 @@ p{
     width: 280px;
     display: flex;
     justify-content: center;
+    margin: auto;
+    }
+
+    .bare{
+    justify-content: center;
+    width: 150px;
+    margin: auto;
+    background-color: #34A853;
     }
 
     .bleu, .rouge, .jaune, .vert{
-        font-size: 80px;
+        font-size: 90px;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: auto;
     }
 
     .recherche{
