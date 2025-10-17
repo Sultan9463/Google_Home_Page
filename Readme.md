@@ -1,4 +1,4 @@
-# <p style="color:#34A853;">  Google Home Page </p>
+# Google Home Page 
 
 ##  Objectifs
 Ce projet met en avant les témoignages clients et les avis utilisateurs pour renforcer la crédibilité d’un produit ou d’un service. Il présente une interface moderne et responsive affichant :
@@ -7,18 +7,6 @@ Ce projet met en avant les témoignages clients et les avis utilisateurs pour re
 - Des cartes de témoignages clients avec photo, nom, statut et avis personnalisé. 
 
 L’objectif est de rassurer les visiteurs et d’augmenter la confiance grâce à la preuve sociale.
-
-
-
-## Structure du projet
-
-```
-projet4/
-│
-├── index.html       # Structure HTML de la Google Home Page
-├── style.css        # Styles et mise en page responsive 
-└── README.md        # Documentation du projet
-```
 
 ## Structure du projet  Google Home Page
 
@@ -42,7 +30,8 @@ projet4/
 ### Technologies utilisées
 - HTML5
 - CSS3
-<p style="color:#34A853;">Texte en rouge</p>
 ## Competences aquises: 
 Structuration de la page avec les balises **header**, **main** et **footer**. <br>
 Gérer la responsivité avec les media queries
+## Ci-dessus le lien de Git-pagee  
+https://sultan9463.github.io/Google_Home_Page/
