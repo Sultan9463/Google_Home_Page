@@ -1,74 +1,88 @@
-body{
+body {
     display: flex;
     justify-content: center;
     width: 100%;
     height: 100vh;
     background-color: #fff;
-    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+    margin: 0px;
 }
 
-.conteneur{
+.conteneur {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     width: 1024px;
-    padding: 10px;
+
 }
-a{
+
+a {
     font-size: 16px;
     text-decoration: none;
     color: #70757a;
 }
-span{
+
+span {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 60px;
     height: 30px;
 }
-span:hover{
+
+span:hover {
     background-color: #F4F5F7;
     border-radius: 5px;
 }
 
-.liens{
+.liens {
     display: flex;
     justify-content: end;
     align-items: center;
     gap: 35px;
     margin-top: 20px;
-   
+
 }
-.google{
+
+.google {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    width: 100%;
+    gap: 3px;
 }
 
-.bleu{
+.bleu {
     color: #4285F4;
     font-size: 120px;
     font-weight: 800;
 }
-.rouge{
+
+.rouge {
     color: #EA4335;
     font-size: 120px;
     font-weight: 800;
 }
-.jaune{
+
+.jaune {
     color: #FBBC05;
     font-size: 120px;
     font-weight: 800;
 }
-.vert{
+
+.vert {
     color: #34A853;
     font-size: 120px;
     font-weight: 800;
 }
-.bare{
+
+.bare {
     display: flex;
     justify-content: center;
 }
-input{
-    width: 80%;
+
+input {
+    width: 60%;
     height: 45px;
     border-radius: 25px;
     border: solid;
@@ -76,15 +90,18 @@ input{
     font-size: 30px;
     padding-left: 20px;
 }
-::placeholder{
+
+::placeholder {
     font-size: 30px;
 }
-.recherche{
+
+.recherche {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
-.recherche h4{
+
+.recherche h4 {
     background-color: #F2F2F2;
     width: 160px;
     height: 33px;
@@ -95,112 +112,35 @@ input{
     font-weight: 500;
 }
 
-.recherche h4:hover{
+.recherche h4:hover {
     background-color: #f1f3f4;
     color: #3AB25D;
     cursor: pointer;
+    box-shadow: 2px 2px 5px rgb(163, 153, 153);
 }
-p{
+
+p {
     text-align: center;
 }
 
 @media (max-width: 768px) {
-    .liens{
-    justify-content: center;
-    }
-    .bare{
-    justify-content: center;
-    width: 100%;
-    margin: auto;
-    }
-}
-
-@media (max-width: 425px) {
-    input{
-    width: 498px;
-    margin: auto;
-    }
-    /* .bare{
-    justify-content: center;
-    width: 100%;
-    margin: auto;
-    } */
-    .bleu, .rouge, .jaune, .vert{
-        font-size: 90px;
-        display: flex;
+    .liens {
         justify-content: center;
         align-items: center;
-        margin: auto;
     }
-    input{
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    }
-}
 
-@media (max-width: 375px) {
-    .liens{
-    justify-content: center;
-    margin: auto;
-    }    
-    input{
-    width: 350px;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    }
-    .recherche{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin: auto;
-    }
-    .bare{
-    justify-content: center;
-    width: 200px;
-    margin: auto;
-    background-color: #34A853;
-    }
-    .bleu, .rouge, .jaune, .vert{
+    .bleu,
+    .rouge,
+    .jaune,
+    .vert {
         font-size: 90px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-    }
-}
-
-@media (max-width: 320px) {
-    input{
-    width: 280px;
-    display: flex;
-    justify-content: center;
-    margin: auto;
     }
 
-    .bare{
-    justify-content: center;
-    width: 150px;
-    margin: auto;
-    background-color: #34A853;
+    .recherche h4 {
+        width: 140px;
     }
 
-    .bleu, .rouge, .jaune, .vert{
-        font-size: 90px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
+    input {
+        width: 90%;
     }
-
-    .recherche{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    width: 90%;
-    margin: auto;
-    }
-    
 }
